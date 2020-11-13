@@ -13,5 +13,8 @@ def find_even_values(src)
     end
     count += 1
   end
-  results_array
+  results_array[0]
+  results_array[1]
+  results_array[2]
+  results_array[3]
 end
