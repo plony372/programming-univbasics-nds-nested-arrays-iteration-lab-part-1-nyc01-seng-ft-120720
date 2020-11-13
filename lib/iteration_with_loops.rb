@@ -1,13 +1,13 @@
 def find_even_values(src)
-  count = 0
-  while count < src.length do
-    inner_count = 0
-    while inner_count < src.length do
-      if src[count][inner_count].even?
-        p src[count][inner_count]
+  row_index = 0
+  while row_index < src.count do
+    element_index = 0
+    while element_index < src[row_index].count do
+      if src[row_index][element_index].even?
+        p src[row_index][element_index]
       end
-      inner_count += 1
+      element_index += 1
     end
-    count += 1
+    row_index += 1
   end
 end
